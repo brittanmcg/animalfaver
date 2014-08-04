@@ -4,6 +4,7 @@ gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.0'
+gem 'haml-rails'
 
 #makes it so that I can use a markdown filter in haml
 gem 'tilt'
