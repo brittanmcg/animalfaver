@@ -1,8 +1,8 @@
 .content
 
-  %h1
-    "Hello!"
+  %h1{:class => "main-text"}
+    Hello!
     %br
-    %button{:class => "button"} 'Get Started!'
+    =link_to "Get Started!", new_choice_path, class: "button"
 
 

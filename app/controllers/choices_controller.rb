@@ -4,4 +4,8 @@ class ChoicesController < ApplicationController
     # @choices = Choice.all 
   end
 
+  def new
+    
+  end
+
 end

@@ -5,6 +5,10 @@ body {
 
 h3,h1 {
   text-align: center;
+  padding: 100px;
+}
+
+.main_text {
 }
 
 .button {
@@ -30,8 +34,8 @@ h3,h1 {
    vertical-align: middle;
    }
 .button:hover {
-   border-top-color: #28597a;
-   background: #28597a;
+   border-top-color: #d02552;
+   background: #d02552;
    color: #ccc;
    }
 .button:active {
