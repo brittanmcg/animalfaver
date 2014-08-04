@@ -1,4 +1,6 @@
 %h1
   "What is your favorite animal??"
   %br
-  %input{:type=>"text", :required => true}
+  = form_for @choice, url: {action: "create"} do |f|
+    = f.text_field :query
+    = f.submit "search animal"
